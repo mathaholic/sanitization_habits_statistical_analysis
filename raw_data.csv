@@ -1,0 +1,213 @@
+﻿Date,Location,Treatment,as_measured,amount_used,collector,google_second_wave_trend,google_drug_resistant_trend,is_suspicious
+3/10/18,eca- front desk,0,1594,0,Nikki,0,0,0
+3/11/18,eca- front desk,0,1583,11,Nikki,0,0,0
+3/12/18,eca- front desk,0,1573,10,Nikki,0,0,0
+3/13/18,eca- front desk,0,1566,7,Nikki,0,48,0
+3/14/18,eca- front desk,0,1549,17,Nikki,0,0,0
+3/15/18,eca- front desk,0,1533,16,Nikki,0,0,0
+3/16/18,eca- front desk,0,1523,10,Nikki,0,0,0
+3/17/18,eca- front desk,0,1518,5,Nikki,0,0,0
+3/18/18,eca- front desk,0,1501,17,Nikki,0,0,0
+3/19/18,eca- front desk,1,1495,6,Nikki,0,0,0
+3/20/18,eca- front desk,1,1488,7,Nikki,0,97,0
+3/21/18,eca- front desk,1,1468,20,Nikki,0,0,0
+3/22/18,eca- front desk,1,1455,13,Nikki,0,99,0
+3/23/18,eca- front desk,1,1436,19,Nikki,0,0,0
+3/24/18,eca- front desk,1,1426,10,Nikki,0,0,0
+3/25/18,eca- front desk,1,1415,11,Nikki,0,59,0
+3/26/18,eca- front desk,1,1409,6,Nikki,43,0,0
+3/27/18,eca- front desk,1,1375,34,Nikki,100,50,0
+3/28/18,eca- front desk,1,1355,20,Nikki,88,0,0
+3/29/18,eca- front desk,1,1350,5,Nikki,60,0,0
+3/30/18,eca- front desk,1,1348,2,Nikki,97,0,0
+3/31/18,eca- front desk,1,1343,5,Nikki,0,0,0
+4/1/18,eca- front desk,1,1333,10,Nikki,17,0,0
+4/2/18,eca- front desk,1,1323,10,Nikki,46,0,0
+4/3/18,eca- front desk,0,1319,4,Nikki,0,0,0
+4/4/18,eca- front desk,0,1308,11,Nikki,14,49,0
+4/5/18,eca- front desk,0,1296,12,Nikki,0,50,0
+4/6/18,eca- front desk,0,1280,16,Nikki,15,0,0
+4/7/18,eca- front desk,0,1271,9,Nikki,N/A,N/A,N/A
+3/8/18,yarn shop,0,1878,0,Nikki,14,49,0
+3/9/18,yarn shop,0,1876,2,Nikki,0,0,0
+3/10/18,yarn shop,0,1874,2,Nikki,0,0,0
+3/11/18,yarn shop,N/A,N/A,N/A,N/A,0,0,0
+3/12/18,yarn shop,0,1872,2,Nikki,0,0,0
+3/13/18,yarn shop,0,1872,0,Nikki,0,48,0
+3/14/18,yarn shop,0,1872,0,Nikki,0,0,0
+3/15/18,yarn shop,0,1872,0,Nikki,0,0,0
+3/16/18,yarn shop,0,1872,0,Nikki,0,0,0
+3/17/18,yarn shop,0,1871,0,Nikki,0,0,0
+3/18/18,yarn shop,N/A,N/A,N/A,N/A,0,0,N/A
+3/19/18,yarn shop,0,1871,0,Nikki,0,0,0
+3/20/18,yarn shop,0,1871,0,Nikki,0,97,0
+3/21/18,yarn shop,0,1871,0,Nikki,0,0,0
+3/22/18,yarn shop,0,1870,1,Nikki,0,99,0
+3/23/18,yarn shop,0,1870,0,Nikki,0,0,0
+3/24/18,yarn shop,0,1870,0,Nikki,0,0,0
+3/25/18,yarn shop,N/A,N/A,N/A,N/A,0,59,N/A
+3/26/18,yarn shop,0,1870,0,Nikki,43,0,0
+3/27/18,yarn shop,0,1870,0,Nikki,100,50,0
+3/28/18,yarn shop,0,1870,0,Nikki,88,0,0
+3/29/18,yarn shop,0,1870,0,Nikki,60,0,0
+3/30/18,yarn shop,0,1870,0,Nikki,97,0,0
+3/31/18,yarn shop,0,1869,1,Nikki,0,0,0
+4/1/18,yarn shop,N/A,N/A,N/A,N/A,17,0,N/A
+4/2/18,yarn shop,0,1869,0,Nikki,46,0,0
+4/3/18,yarn shop,1,1868,1,Nikki,0,0,0
+4/4/18,yarn shop,1,1864,4,Nikki,14,49,0
+4/5/18,yarn shop,1,1864,0,Nikki,0,50,0
+4/6/18,yarn shop,1,1861,3,Nikki,15,0,0
+4/7/18,yarn shop,1,1858,3,Nikki,N/A,N/A,0
+3/12/18,concur- 3rd floor,0,1857,0,Nikki,0,0,0
+3/12/18,concr - 16th floor,0,1856,1,Nikki,0,0,0
+3/13/18,concr - 3rd floor,0,1857,8,Carmen,0,48,0
+3/13/18,concur - 5th floor,0,1845,18,Carmen,0,48,0
+3/13/18,concur - 10th floor,0,1855,1,Carmen,0,48,0
+3/13/18,concur -12th floor,0,1853,5,Carmen,0,48,0
+3/13/18,concur - 16th floor,0,1855,7,Carmen,0,48,0
+3/14/18,concr - 3rd floor,0,1849,5,Carmen,0,0,0
+3/14/18,concur - 5th floor,0,1827,17,Carmen,0,0,0
+3/14/18,concur - 10th floor,0,1854,1,Carmen,0,0,0
+3/14/18,concur -12th floor,0,1848,5,Carmen,0,0,0
+3/14/18,concur - 16th floor,0,1848,-2,Carmen,0,0,0
+3/15/18,concr - 3rd floor,0,1844,1,Carmen,0,0,0
+3/15/18,concur - 5th floor,0,1810,9,Carmen,0,0,0
+3/15/18,concur - 10th floor,0,1853,0,Carmen,0,0,0
+3/15/18,concur -12th floor,0,1843,0,Carmen,0,0,0
+3/15/18,concur - 16th floor,0,1850,59,Carmen,0,0,0
+3/16/18,concr - 3rd floor,0,1843,1,Nikki,0,0,0
+3/16/18,concur - 5th floor,0,1801,6,Nikki,0,0,0
+3/16/18,concur - 10th floor,0,1853,3,Nikki,0,0,0
+3/16/18,concur -12th floor,0,1843,38,Nikki,0,0,0
+3/16/18,concur - 16th floor,0,1791,3,Nikki,0,0,0
+3/19/18,concr - 3rd floor,1,1842,1,Nikki,0,0,0
+3/19/18,concur - 5th floor,1,1795,25,Nikki,0,0,0
+3/19/18,concur - 10th floor,0,1850,4,Nikki,0,0,0
+3/19/18,concur -12th floor,1,1805,3,Nikki,0,0,0
+3/19/18,concur - 16th floor,0,1788,2,Nikki,0,0,0
+3/20/18,concr - 3rd floor,1,1841,2,Nikki,0,97,0
+3/20/18,concur - 5th floor,1,1770,N/A,Nikki,0,97,0
+3/20/18,concur - 10th floor,0,1846,6,Nikki,0,97,0
+3/20/18,concur -12th floor,1,1802,6,Nikki,0,97,0
+3/20/18,concur - 16th floor,0,1786,10,Nikki,0,97,0
+3/21/18,concr - 3rd floor,1,1839,9,Carmen,0,0,0
+3/21/18,concur - 5th floor,1,MISSING,N/A,Carmen,0,0,0
+3/21/18,concur - 10th floor,0,1840,3,Carmen,0,0,0
+3/21/18,concur -12th floor,1,1796,9,Carmen,0,0,0
+3/21/18,concur - 16th floor,0,1776,7,Carmen,0,0,0
+3/22/18,concr - 3rd floor,1,1830,-4,Carmen,0,99,1
+3/22/18,concur - 5th floor,1,MISSING,N/A,Carmen,0,99,0
+3/22/18,concur - 10th floor,0,1837,1,Carmen,0,99,0
+3/22/18,concur -12th floor,1,1787,-1,Carmen,0,99,0
+3/22/18,concur - 16th floor,0,1769,1,Carmen,0,99,0
+3/23/18,concr - 3rd floor,1,1834,2,Nikki,0,0,0
+3/23/18,concur - 5th floor,1,1863,12,Nikki,0,0,0
+3/23/18,concur - 10th floor,0,1836,4,Nikki,0,0,0
+3/23/18,concur -12th floor,1,1788,0,Nikki,0,0,0
+3/23/18,concur - 16th floor,0,1768,6,Nikki,0,0,0
+3/26/18,concr - 3rd floor,1,1832,1,Lu,43,0,0
+3/26/18,concur - 5th floor,1,1851,23,Lu,43,0,0
+3/26/18,concur - 10th floor,0,1832,2,Lu,43,0,0
+3/26/18,concur -12th floor,1,1788,273,Lu,43,0,1
+3/26/18,concur - 16th floor,0,1762,4,Lu,43,0,0
+3/27/18,concr - 3rd floor,1,1831,1,Lu,100,50,0
+3/27/18,concur - 5th floor,1,1828,22,Lu,100,50,0
+3/27/18,concur - 10th floor,0,1830,0,Lu,100,50,0
+3/27/18,concur -12th floor,1,1515,11,Lu,100,50,0
+3/27/18,concur - 16th floor,0,1758,3,Lu,100,50,0
+3/28/18,concr - 3rd floor,1,1830,1,Nikki,88,0,0
+3/28/18,concur - 5th floor,1,1806,6,Nikki,88,0,0
+3/28/18,concur - 10th floor,0,1830,2,Nikki,88,0,0
+3/28/18,concur -12th floor,1,1504,3,Nikki,88,0,0
+3/28/18,concur - 16th floor,0,1755,6,Nikki,88,0,0
+3/29/18,concr - 3rd floor,1,1829,1,Nikki,60,0,0
+3/29/18,concur - 5th floor,1,1800,7,Nikki,60,0,0
+3/29/18,concur - 10th floor,0,1828,2,Nikki,60,0,0
+3/29/18,concur -12th floor,1,1501,3,Nikki,60,0,0
+3/29/18,concur - 16th floor,0,1749,6,Nikki,60,0,0
+3/30/18,concr - 3rd floor,1,1828,-1,Nikki,97,0,0
+3/30/18,concur - 5th floor,1,1793,7,Nikki,97,0,0
+3/30/18,concur - 10th floor,0,1826,4,Nikki,97,0,0
+3/30/18,concur -12th floor,1,1498,1,Nikki,97,0,0
+3/30/18,concur - 16th floor,0,1743,6,Nikki,97,0,0
+4/2/18,concr - 3rd floor,0,1829,-1,Carmen,46,0,0
+4/2/18,concur - 5th floor,0,1786,5,Carmen,46,0,0
+4/2/18,concur - 10th floor,1,1822,-1,Carmen,46,0,0
+4/2/18,concur -12th floor,0,1497,-158,Carmen,46,0,1
+4/2/18,concur - 16th floor,1,1737,8,Carmen,46,0,0
+4/3/18,concr - 3rd floor,0,1830,3,Carmen,0,0,0
+4/3/18,concur - 5th floor,0,1781,7,Carmen,0,0,0
+4/3/18,concur - 10th floor,1,1823,1,Carmen,0,0,0
+4/3/18,concur -12th floor,0,1655,0,Carmen,0,0,0
+4/3/18,concur - 16th floor,1,1729,4,Carmen,0,0,0
+4/4/18,concr - 3rd floor,0,1827,0,Nikki,14,49,0
+4/4/18,concur - 5th floor,0,1774,43,Nikki,14,49,0
+4/4/18,concur - 10th floor,1,1822,2,Nikki,14,49,0
+4/4/18,concur -12th floor,0,1655,6,Nikki,14,49,0
+4/4/18,concur - 16th floor,1,1725,6,Nikki,14,49,0
+4/5/18,concr - 3rd floor,0,1827,2,Carmen,0,50,0
+4/5/18,concur - 5th floor,0,1731,152,Carmen,0,50,1
+4/5/18,concur - 10th floor,1,1820,3,Carmen,0,50,0
+4/5/18,concur -12th floor,0,1649,6,Carmen,0,50,0
+4/5/18,concur - 16th floor,1,1719,10,Carmen,0,50,0
+3/5/18,ped - well,0,1813,10,Omar,0,0,0
+3/5/18,ped- not well,0,1839,17,Omar,0,0,0
+3/6/18,ped - well,0,1806,7,Omar,0,48,0
+3/6/18,ped- not well,0,1828,11,Omar,0,48,0
+3/7/18,ped - well,0,1792,14,Omar,0,0,0
+3/7/18,ped- not well,0,1819,9,Omar,0,0,0
+3/8/18,ped - well,0,1784,8,Omar,14,49,0
+3/8/18,ped- not well,0,1792,27,Omar,14,49,0
+3/9/18,ped - well,0,1770,14,Omar,0,0,0
+3/9/18,ped- not well,0,1783,9,Omar,0,0,0
+3/12/18,ped - well,0,1764,6,Omar,0,0,0
+3/12/18,ped- not well,1,1771,12,Omar,0,0,0
+3/13/18,ped - well,0,1758,6,Omar,0,48,0
+3/13/18,ped- not well,1,1751,20,Omar,0,48,0
+3/14/18,ped - well,0,1748,10,Omar,0,0,0
+3/14/18,ped- not well,1,1717,34,Omar,0,0,0
+3/15/18,ped - well,0,1736,12,Omar,0,0,0
+3/15/18,ped- not well,1,1699,18,Omar,0,0,0
+3/16/18,ped - well,0,1726,10,Omar,0,0,0
+3/16/18,ped- not well,1,1674,25,Omar,0,0,0
+3/19/18,ped - well,1,1708,18,Omar,0,0,0
+3/19/18,ped- not well,0,1663,11,Omar,0,0,0
+3/20/18,ped - well,1,1696,12,Omar,0,97,0
+3/20/18,ped- not well,0,1656,7,Omar,0,97,0
+3/21/18,ped - well,1,1687,9,Omar,0,0,0
+3/21/18,ped- not well,0,1652,4,Omar,0,0,0
+3/22/18,ped - well,1,1674,13,Omar,0,99,0
+3/22/18,ped- not well,0,1638,14,Omar,0,99,0
+3/23/18,ped - well,1,1654,20,Omar,0,0,0
+3/23/18,ped- not well,0,1621,17,Omar,0,0,0
+3/26/18,ped - well,0,1652,2,Omar,43,0,0
+3/26/18,ped- not well,1,1612,9,Omar,43,0,0
+3/27/18,ped - well,0,1642,10,Omar,100,50,0
+3/27/18,ped- not well,1,1607,5,Omar,100,50,0
+3/28/18,ped - well,0,1439,203,Omar,88,0,1
+3/28/18,ped- not well,1,1602,5,Omar,88,0,0
+3/29/18,ped - well,0,1435,4,Omar,60,0,0
+3/29/18,ped- not well,1,1591,11,Omar,60,0,0
+3/30/18,ped - well,0,1429,6,Omar,97,0,0
+3/30/18,ped- not well,1,1569,22,Omar,7,0,0
+3/11/18,Avalon - Lobby,0,1855,4,Carmen,0,0,0
+3/12/18,Avalon - Gym,0,1853,5,Carmen,0,0,0
+3/13/18,Avalon - Gym,0,1848,5,Carmen,0,48,0
+3/14/18,Avalon - Gym,0,1841,7,Carmen,0,0,0
+3/15/18,Avalon - Gym,0,1836,5,Carmen,0,0,0
+3/16/18,Avalon - Gym,0,1835,1,Carmen,0,0,0
+3/17/18,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+3/18/18,Avalon - Lobby,0,1842,13,Carmen,0,0,0
+3/19/18,Avalon - Gym,0,1832,3,Carmen,0,0,0
+3/20/18,Avalon - Gym,0,1826,6,Carmen,0,97,0
+3/21/18,Avalon - Gym,0,1824,2,Carmen,0,0,0
+3/22/18,Avalon - Gym,0,1816,8,Carmen,0,99,0
+3/23/18,Avalon - Gym,0,1806,10,Carmen,0,0,0
+3/24/18,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+4/1/18,Avalon - Lobby,1,1835,7,Carmen,17,0,0
+4/2/18,Avalon - Gym,1,1799,7,Carmen,46,0,0
+4/3/18,Avalon - Gym,1,1787,12,Carmen,0,0,0
+4/4/18,Avalon - Gym,1,1776,11,Carmen,14,49,0
+4/5/18,Avalon - Gym,1,1767,9,Carmen,0,50,0
+4/6/18,Avalon - Gym,1,1763,4,Carmen,15,0,0
