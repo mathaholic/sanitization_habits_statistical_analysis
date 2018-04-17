@@ -1,0 +1,909 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10400.17.0915.2112                               -->
+<workbook source-build='10.4.0 (10400.17.0915.2112)' source-platform='mac' version='10.4' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='raw_data' inline='true' name='federated.0kj4he40ttrb191ddxcpw0gnn1yp' version='10.4'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='raw_data' name='textscan.1ip8lre1rv0kt41927hty1ue48tv'>
+            <connection class='textscan' directory='/Users/mathaholic/Documents/schoolwork/w241/group_proj/sanitization_habits_statistical_analysis/data' filename='raw_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1ip8lre1rv0kt41927hty1ue48tv' name='raw_data.csv' table='[raw_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Location' ordinal='1' />
+            <column datatype='integer' name='Treatment' ordinal='2' />
+            <column datatype='integer' name='as_measured' ordinal='3' />
+            <column datatype='integer' name='amount_used' ordinal='4' />
+            <column datatype='string' name='collector' ordinal='5' />
+            <column datatype='integer' name='google_second_wave_trend' ordinal='6' />
+            <column datatype='integer' name='google_drug_resistant_trend' ordinal='7' />
+            <column datatype='integer' name='is_suspicious' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;date&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Treatment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Treatment]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>Treatment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>as_measured</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[as_measured]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>as_measured</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>amount_used</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[amount_used]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>amount_used</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>collector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[collector]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>collector</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>google_second_wave_trend</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[google_second_wave_trend]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>google_second_wave_trend</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>google_drug_resistant_trend</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[google_drug_resistant_trend]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>google_drug_resistant_trend</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_suspicious</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[is_suspicious]</local-name>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias>is_suspicious</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[raw_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Summed Google Health Trends' datatype='integer' name='[Calculation_2949435598266933248]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[google_drug_resistant_trend] + [google_second_wave_trend]' />
+      </column>
+      <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Treatment]' role='dimension' type='ordinal' />
+      <column caption='Amount Used' datatype='integer' name='[amount_used]' role='measure' type='quantitative' />
+      <column caption='As Measured' datatype='integer' name='[as_measured]' role='measure' type='quantitative' />
+      <column caption='Collector' datatype='string' name='[collector]' role='dimension' type='nominal' />
+      <column caption='Google Drug Resistant Trend' datatype='integer' name='[google_drug_resistant_trend]' role='measure' type='quantitative' />
+      <column caption='Google Second Wave Trend' datatype='integer' name='[google_second_wave_trend]' role='measure' type='quantitative' />
+      <column caption='Is Suspicious' datatype='integer' name='[is_suspicious]' role='measure' type='quantitative' />
+      <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.44819' measure-ordering='alphabetic' measure-percentage='0.55181' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Location:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;eca- front desk&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Avalon - Gym&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;concur - 10th floor&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;yarn shop&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;concur - 16th floor&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Avalon - Lobby&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;concur -12th floor&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ped - well&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;concur- 3rd floor&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;concur - 3rd floor&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ped- not well&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;concur - 5th floor&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='All Values CrossTab'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='12'>All Data Cross Tab</run>
+            <run>Æ&#10;</run>
+            <run fontsize='10'>Suspicious data is denoted in bright red</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Suspicious data is denoted as any data that could have been compromised.  Any measurement that is outside of 2 standard deviations and any measurement that is greater than the day before are considered suspicious.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0kj4he40ttrb191ddxcpw0gnn1yp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kj4he40ttrb191ddxcpw0gnn1yp'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Treatment]' role='dimension' type='ordinal' />
+            <column caption='Amount Used' datatype='integer' name='[amount_used]' role='measure' type='quantitative' />
+            <column caption='Is Suspicious' datatype='integer' name='[is_suspicious]' role='measure' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Treatment]' derivation='None' name='[none:Treatment:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[amount_used]' derivation='Sum' name='[sum:amount_used:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[is_suspicious]' derivation='Sum' name='[sum:is_suspicious:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week-Trunc' name='[twk:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Avalon - Gym&quot;' function='range' level='[none:Location:nk]' to='&quot;eca- front desk&quot;' />
+              <groupfilter from='&quot;ped - well&quot;' function='range' level='[none:Location:nk]' to='&quot;yarn shop&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' value='62' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' value='56' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:is_suspicious:qk]' num-steps='2' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:is_suspicious:qk]' />
+              <text column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:ok] / [federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Treatment:ok])</rows>
+        <cols>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='full aggregate pivoted on Google Health trends'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Amount of Hand Sanitizer Used, Weekly&#10;</run>
+            <run fontsize='12'>Labels denote health related Google Trends for same week</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0kj4he40ttrb191ddxcpw0gnn1yp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kj4he40ttrb191ddxcpw0gnn1yp'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Treatment]' role='dimension' type='ordinal' />
+            <column caption='Amount Used' datatype='integer' name='[amount_used]' role='measure' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Treatment]' derivation='Sum' name='[sum:Treatment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[amount_used]' derivation='Sum' name='[sum:amount_used:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week-Trunc' name='[twk:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Avalon - Gym&quot;' function='range' level='[none:Location:nk]' to='&quot;eca- front desk&quot;' />
+              <groupfilter from='&quot;ped - well&quot;' function='range' level='[none:Location:nk]' to='&quot;yarn shop&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#555555' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#555555' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:ok]' />
+            </encodings>
+            <reference-line axis-column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:Treatment:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:Treatment:qk]' z-order='2' />
+            <reference-line axis-column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]' z-order='3' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:Treatment:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:Treatment:qk] + [federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='hand sanitizer by week'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Amount of Hand Sanitizer Used, Weekly</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0kj4he40ttrb191ddxcpw0gnn1yp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kj4he40ttrb191ddxcpw0gnn1yp'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Treatment]' role='dimension' type='ordinal' />
+            <column caption='Amount Used' datatype='integer' name='[amount_used]' role='measure' type='quantitative' />
+            <column-instance column='[Treatment]' derivation='Max' name='[max:Treatment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[amount_used]' derivation='Sum' name='[sum:amount_used:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week-Trunc' name='[twk:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Avalon - Gym&quot;' function='range' level='[none:Location:nk]' to='&quot;eca- front desk&quot;' />
+              <groupfilter from='&quot;ped - well&quot;' function='range' level='[none:Location:nk]' to='&quot;yarn shop&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#555555' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#555555' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' />
+              <text column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[max:Treatment:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]</rows>
+        <cols>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:qk]</cols>
+        <show-full-range>
+          <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[Date]</column>
+        </show-full-range>
+      </table>
+    </worksheet>
+    <worksheet name='hand sanitizer pivoted on Flu'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Amount of Hand Sanitizer Used, Weekly&#10;</run>
+            <run fontsize='12'>Labels denote Flu related Google Trends for same week</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0kj4he40ttrb191ddxcpw0gnn1yp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kj4he40ttrb191ddxcpw0gnn1yp'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column caption='Amount Used' datatype='integer' name='[amount_used]' role='measure' type='quantitative' />
+            <column caption='Google Second Wave Trend' datatype='integer' name='[google_second_wave_trend]' role='measure' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[amount_used]' derivation='Sum' name='[sum:amount_used:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[google_second_wave_trend]' derivation='Sum' name='[sum:google_second_wave_trend:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week-Trunc' name='[twk:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Avalon - Gym&quot;' function='range' level='[none:Location:nk]' to='&quot;eca- front desk&quot;' />
+              <groupfilter from='&quot;ped - well&quot;' function='range' level='[none:Location:nk]' to='&quot;yarn shop&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#555555' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#555555' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' />
+              <text column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:google_second_wave_trend:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]</rows>
+        <cols>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:qk]</cols>
+        <show-full-range>
+          <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[Date]</column>
+        </show-full-range>
+      </table>
+    </worksheet>
+    <worksheet name='hand sanitizer pivoted on Google Trends'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Amount of Hand Sanitizer Used, Weekly&#10;</run>
+            <run fontsize='12'>Labels denote health related Google Trends for same week</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0kj4he40ttrb191ddxcpw0gnn1yp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kj4he40ttrb191ddxcpw0gnn1yp'>
+            <column caption='Summed Google Health Trends' datatype='integer' name='[Calculation_2949435598266933248]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[google_drug_resistant_trend] + [google_second_wave_trend]' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column caption='Amount Used' datatype='integer' name='[amount_used]' role='measure' type='quantitative' />
+            <column caption='Google Drug Resistant Trend' datatype='integer' name='[google_drug_resistant_trend]' role='measure' type='quantitative' />
+            <column caption='Google Second Wave Trend' datatype='integer' name='[google_second_wave_trend]' role='measure' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2949435598266933248]' derivation='Sum' name='[sum:Calculation_2949435598266933248:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[amount_used]' derivation='Sum' name='[sum:amount_used:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week-Trunc' name='[twk:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Avalon - Gym&quot;' function='range' level='[none:Location:nk]' to='&quot;eca- front desk&quot;' />
+              <groupfilter from='&quot;ped - well&quot;' function='range' level='[none:Location:nk]' to='&quot;yarn shop&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#555555' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#555555' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' />
+              <text column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:Calculation_2949435598266933248:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]</rows>
+        <cols>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:qk]</cols>
+        <show-full-range>
+          <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[Date]</column>
+        </show-full-range>
+      </table>
+    </worksheet>
+    <worksheet name='hand sanitizer pivoted on drug resistance'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Amount of Hand Sanitizer Used, Weekly&#10;</run>
+            <run fontsize='12'>Labels denote Drug Resistant related Google Trends for same week</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='raw_data' name='federated.0kj4he40ttrb191ddxcpw0gnn1yp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kj4he40ttrb191ddxcpw0gnn1yp'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Treatment]' role='dimension' type='ordinal' />
+            <column caption='Amount Used' datatype='integer' name='[amount_used]' role='measure' type='quantitative' />
+            <column caption='Google Drug Resistant Trend' datatype='integer' name='[google_drug_resistant_trend]' role='measure' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Treatment]' derivation='None' name='[none:Treatment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[amount_used]' derivation='Sum' name='[sum:amount_used:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[google_drug_resistant_trend]' derivation='Sum' name='[sum:google_drug_resistant_trend:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Week-Trunc' name='[twk:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Avalon - Gym&quot;' function='range' level='[none:Location:nk]' to='&quot;eca- front desk&quot;' />
+              <groupfilter from='&quot;ped - well&quot;' function='range' level='[none:Location:nk]' to='&quot;yarn shop&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Treatment:qk]' included-values='in-range'>
+            <min>0</min>
+            <max>1</max>
+          </filter>
+          <slices>
+            <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]</column>
+            <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Treatment:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#555555' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#efebe8' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#555555' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' />
+              <text column='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:google_drug_resistant_trend:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[sum:amount_used:qk]</rows>
+        <cols>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[twk:Date:qk]</cols>
+        <show-full-range>
+          <column>[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[Date]</column>
+        </show-full-range>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='hand sanitizer by week'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='hand sanitizer pivoted on Google Trends'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='full aggregate pivoted on Google Health trends'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='hand sanitizer pivoted on Flu'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='hand sanitizer pivoted on drug resistance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Treatment:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0kj4he40ttrb191ddxcpw0gnn1yp].[none:Location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' maximized='true' name='All Values CrossTab'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+</workbook>
