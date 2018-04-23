@@ -1,0 +1,76 @@
+---
+title: "panel_data_modeling"
+author: "Omar Al Taher"
+date: "4/21/2018"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+#install.packages("plm")
+library(plm)
+library(stargazer)
+library(multiwayvcov)
+library(lmtest)
+```
+
+
+
+```{r}
+d <- read.csv("../data/weekly_data_corrected.csv")
+#d
+
+model.fd <- plm(amount_used ~ treatment + stagger_second_flu_trend,
+                data =d, model='fd', index=c('numeric_location', 'week_number'), effect='individual')
+
+summary(model.fd)
+cat("\n********************************\n")
+#plmtest(model.fd, effect='individual', type='kw')
+
+
+```
+```{r}
+d <- read.csv("../data/weekly_data_corrected.csv")
+#d
+
+model.rando <- plm(amount_used ~ treatment + stagger_second_flu_trend,
+                data =d, model='random', index=c('numeric_location', 'week_number'), effect='individual')
+
+summary(model.rando)
+cat("\n********************************\n")
+#plmtest(model.rando, effect='individual', type='kw')
+
+```
+```{r}
+d2 <- read.csv('../data/processed_data.csv')
+
+colnames(d2)[4] <- "treatment"
+
+model.naive <- lm(amount_used ~ treatment + stagger_second_flu_trend, data = d2)
+
+model.naive$cluster1.vcov <- cluster.vcov(model.naive, ~ week_number + numeric_location)
+
+summary(model.naive)
+#coeftest(model.naive, model.naive$cluster1.vcov)[4:6]
+naive_se <- coeftest(model.naive, model.naive$cluster1.vcov)
+
+plot(model.naive)
+summary(model.naive, cluster = cbind(d2$week_number, d2$numeric_location))
+```
+```{r}
+#coeftest(model.naive, model.naive$cluster1.vcov)
+
+stargazer(model.naive, model.fd, model.rando,
+          se = list(coeftest(model.naive, model.naive$cluster1.vcov)[4:6], NULL, NULL), 
+          column.labels  = c("Clustered", "First-Difference", "Random Effects"),type = 'text')
+
+```
+
