@@ -10,4 +10,4 @@ Aside from the influenza vaccine, proper hand hygiene using soap and water as we
 
 This paper discusses an experiment to test the effectiveness of placing an indicator sign, pointing to the location of a hand sanitizer dispenser, on increasing the usage in multiple locations where people congregate. Considering the sobering statistics and the simplicity of the proposed treatment, even a small treatment effect would have significant practical public health implications.
 
-*For more details please see the file An_Insignificant_Amount_of_Purell.pdf in this repository.*
+For more details please see the file [An_Insignificant_Amount_of_Purell.pdf](https://github.com/mathaholic/sanitization_habits_statistical_analysis/blob/master/An_Insignificant_Amount_of_Purell.pdf) in this repository.
